@@ -1,0 +1,125 @@
+body
+		{
+			background:url("images/bg1.jpg");
+			background-position: cover;
+			background-size:100%;
+		}
+		.logform
+		{
+			width:50%;
+			height:650px;
+			background-color:#ffffffad;
+			margin:auto;
+			margin-top:180px;
+			display:block;
+			text-align:center;
+			border-radius: 35px;
+			overflow: hidden;
+
+		}
+		.logform img
+		{
+			border-radius:50%;
+			margin:25px;
+			height:100px;
+			width:100px;
+			opacity:.6;
+			transition:all .5s ease-in-out;
+			cursor:pointer;
+		}
+		.logform img:hover
+		{
+			opacity:1;
+			transition:all .5s ease-in-out;
+
+		}
+		.btnl
+		{
+			margin:20px;
+			transform:none;
+			transition:none;
+			display:inline-block;
+			animation:none;
+			width:300px;
+			position:static;
+			background-color: #ffffff17;
+			border-radius: 50px;
+			border:none;
+			background-size:cover;
+			color:#333;
+		}
+		section
+		{
+			text-align:center;
+			margin-left:15px;
+			padding:0px;
+			border-radius:50px;
+			width:700px;
+			overflow: hidden;
+		}
+		.trans
+		{
+			display:inline-block;
+			width:100%;
+
+		}
+		.trans2
+		{
+			display:inline-block;
+			width:100%;
+		}
+		.btn5
+		{
+			margin:20px;
+			transform:none;
+			transition:none;
+			animation:none;
+			width:200px;
+			position:static;
+			display:inline-block;
+			
+			border-radius: 10px;
+			background: url("images/grad1.jpg") no-repeat;
+			background-size:cover;
+
+		}
+		.contall
+		{
+			display: inline-block;
+			width:100%;
+			height:500px;
+			margin-left:3%;
+
+		}
+		.contall input
+		{
+			width:400px;
+			height:50px;
+			margin:15px;
+			border-radius: 35px;
+			font-size:25px;
+			text-align: center;
+			border:3px solid #333;
+			border-top: none;
+			border-left:none;
+			border-right: none;
+			background-color:#ffffff17;
+			transition:all .5s ease-in-out;
+
+
+		}
+		.contall input:hover
+		{
+			box-shadow: 3px 3px 5px 1px #2cbbc0;
+			transition: all .5s ease-in-out;
+							
+		}
+		#login
+		{
+			background-image:url('images/grad1.jpg');
+		}
+		input,button
+		{
+			outline: none;
+
+		}
